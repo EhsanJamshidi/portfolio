@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Ehsan Jamshidi - Full Stack Web Developer</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    * Name: personal portfolio - v1.0.0
+    * URL: 
+    * Author: Ehsan Jamshidi
+    ======================================================== -->
+</head>
+
+<body>
+  <!-- Mobile nav toggle button -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+  <!-- Header -->
+  <header id="header" class="d-none d-xl-block p-3 text-white">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-start">
+        <a href="index.html" class="align-items-center mb-2 mb-lg-0 text-white text-decoration-none me-4">
+          <span style="font-weight: 500;" class="me-1 fs-4">Ehsan</span><span style="font-weight: 400; color: #D9D9D9;"
+            class="fs-4">Jamshidi</span>
+        </a>
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#introduce" class="nav-link scrollto"><i class="bi bi-chevron-left"></i><span>About</span><i
+                class="bi bi-chevron-right"></i></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bi bi-chevron-left"></i><span>Resume</span><i
+                class="bi bi-chevron-right"></i></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bi bi-chevron-left"></i><span>Portfolio</span><i
+                class="bi bi-chevron-right"></i></a></li>
+          <!-- <li><a href="#services" class="nav-link scrollto"><i class="bi bi-chevron-left"></i><span>Services</span><i
+                class="bi bi-chevron-right"></i></a></li> -->
+          <li><a href="#contact" class="nav-link scrollto"><i class="bi bi-chevron-left"></i><span>Contact</span><i
+                class="bi bi-chevron-right"></i></a></li>
+        </ul>
+        <div class="text-end social-links">
+          <a href="https://github.com/EhsanJamshidi" target="_blank" class="me-3 github"><i
+              class="bi bi-github"></i><span class="d-none d-xxl-inline-flex">Github</span></a>
+          <a href="https://www.linkedin.com/in/ehsan-jamshidi-095886183/" target="_blank" class="me-3 linkedin"><i
+              class="bi bi-linkedin"></i><span class="d-none d-xxl-inline-flex">LinkdIn</span></a>
+          <a href="https://twitter.com/Ehsan_Jamshidii" target="_blank" class="me-3 twitter"><i
+              class="bi bi-twitter"></i><span class="d-none d-xxl-inline-flex">Twitter</span></a>
+          <!-- <a href="https://join.skype.com/invite/miaImeE9VFju" target="_blank" class="me-3 skype"><i
+              class="bi bi-skype"></i><span class="d-none d-xxl-inline-flex">Skype</span></a>
+          <a href="#" class="me-3 instagram"><i class="bi bi-instagram"></i><span
+              class="d-none d-xxl-inline-flex">Instagram</span></a> -->
+          <a href="mailto:ehsan.jamshidiii@gmail.com" target="_blank" class="mail"><i class="bi bi-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div id="header-mobile" class="d-flex flex-column">
+    <div class="profile">
+      <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+      <h1 class="text-center"><a href="index.html" class="text-white"><span style="font-weight: 500;"
+            class="me-1 fs-4">Ehsan</span><span style="font-weight: 400; color: #D9D9D9;"
+            class="fs-4">Jamshidi</span></a></h1>
+      <div class="social-links mt-3 text-center">
+        <a href="https://github.com/EhsanJamshidi" target="_blank" class="github"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/ehsan-jamshidi-095886183/" target="_blank" class="linkedin"><i
+            class="bi bi-linkedin"></i></a>
+        <a href="https://twitter.com/Ehsan_Jamshidii" target="_blank" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="https://join.skype.com/invite/miaImeE9VFju" target="_blank" class="skype"><i
+            class="bi bi-skype"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+      </div>
+    </div>
+    <nav id="navbar" class="nav-menu navbar py-5">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><span>About</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><span>Resume</span></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto"><span>Portfolio</span></a></li>
+        <!-- <li><a href="#services" class="nav-link scrollto"><span>Services</span></a></li> -->
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center py-5">
+    <div class="container py-5">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-10">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 px-4 px-md-0" data-aos="fade-in">
+              <span class="hero-container">
+                <span>I'm a <span class="typed"
+                    data-typed-items="Freelancer, Front-End Developer, Back-End Developer, Full-Stack Web Developer"></span>
+                </span>
+              </span>
+              <div class="mt-3">
+                <p class="fs-2">Think twice, code once.</p>
+                <p class="fs-2">Show me the code</p>
+              </div>
+              <div>
+                <p class="fs-6 text-secondary">I design and code beautifully simple things,</p>
+                <p class="fs-6 text-secondary">and I love what I do.</p>
+              </div>
+              <div class="my-5 hero-link">
+                <a href="mailto:ehsan.jamshidiii@gmail.com" class="links">LET'S CHAT!</a>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6">
+              <div class="row justify-content-center">
+                <div class="col-6 col-sm-6 col-md-4 my-3">
+                  <div class="hero-icon mx-auto">
+                    <img class="html-icon" src="assets/img/icons/html.png" alt="html">
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 my-3">
+                  <div class="hero-icon mx-auto">
+                    <img class="css-icon" src="assets/img/icons/css.png" alt="css">
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 my-3">
+                  <div class="hero-icon mx-auto">
+                    <img class="js-icon" src="assets/img/icons/js.png" alt="JavaScript">
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 my-3">
+                  <div class="hero-icon mx-auto">
+                    <img class="vue-icon" src="assets/img/icons/vue.png" alt="vue js">
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 my-3">
+                  <div class="hero-icon mx-auto">
+                    <img class="php-icon" src="assets/img/icons/php.png" alt="php">
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 my-3">
+                  <div class="hero-icon mx-auto">
+                    <img class="laravel-icon" src="assets/img/icons/laravel.png" alt="laravel">
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 my-3">
+                  <div class="hero-icon mx-auto">
+                    <img class="mysql-icon" src="assets/img/icons/mysql.png" alt="mysql">
+                  </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 my-3">
+                  <div class="hero-icon mx-auto">
+                    <img class="sql-icon" src="assets/img/icons/sql.png" alt="sql">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 mt-5">
+          <div class="row px-4 px-md-0">
+            <div class="col-auto">
+              <p class="fs-2 text-white">8 <span class="fs-6 text-secondary">YEARS EXPEREINCE</span></p>
+            </div>
+            <div class="col-auto">
+              <p class="fs-2 text-white">80 <span class="fs-6 text-secondary">PROJECTS COMPLETED</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <main>
+
+    <!-- introduce -->
+    <section id="introduce" class="introduce py-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12 col-lg-6 px-md-5">
+            <div class="card p-5">
+              <div class="row">
+                <div class="pb-0 col">
+                  <h4 class="m-0">Front-End</h4>
+                </div>
+                <div class="pb-0 col-auto">
+                  <i class="bi bi-code"></i>
+                </div>
+              </div>
+              <div>
+                <p>I develop front-end with the simplest and fast solution.</p>
+              </div>
+              <div>
+                <p class="m-0 underline">50 PROJECTS</p>
+              </div>
+            </div>
+            <div class="card p-5 mt-2">
+              <div class="row">
+                <div class="pb-0 col">
+                  <h4>Back-End</h4>
+                </div>
+                <div class="pb-0 col-auto">
+                  <i class="bi bi-code-slash"></i>
+                </div>
+              </div>
+              <div>
+                <p>I develop back-end with coding super clean.</p>
+              </div>
+              <div>
+                <p class="m-0 underline">40 PROJECTS</p>
+              </div>
+            </div>
+            <div class="card p-5 mt-2">
+              <div class="row">
+                <div class="pb-0 col">
+                  <h4>Full-stack</h4>
+                </div>
+                <div class="pb-0 col-auto">
+                  <i class="bi bi-file-earmark-code"></i>
+                </div>
+              </div>
+              <div>
+                <p>I develop website and app to be useful.</p>
+              </div>
+              <div>
+                <p class="m-0 underline">30 PROJECTS</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 px-4 px-lg-5">
+            <div class="px-sm-5">
+              <p class="text-secondary mt-5 mt-lg-0">Introduce</p>
+              <p class="fs-1 my-5">Hello! I'm Ehsan Jamshidi</p>
+              <p class="fs-4 my-5"><i>Every great solution comes from good thinking models</i></p>
+              <p class="text-secondary text-justify">Since beginning of my journey as a web developer nearly 8 years
+                ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people
+                to create digital products for both business and consumer use. I'm quietly confident, naturally curious,
+                and perpetually working on improving my problem-solving skills.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Resume Section -->
+    <section id="resume" class="resume py-5">
+      <div class="container pb-5">
+        <div class="row pb-5">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>Ehsan Jamshidi</h4>
+              <p><em>Innovative and deadline-driven Web Developer with 8+ years of experience designing and developing
+                  user-centered products.</em></p>
+              <ul>
+                <li>Karaj, Alborz, Iran</li>
+                <li>(98) 912 572 3642</li>
+                <li>ehsan.jamshidiii@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Master of Software Engineering</h4>
+              <h5>2011 - 2013</h5>
+              <p><em>Shamsipour Technical and Vocational College, Tehran, Iran</em></p>
+            </div>
+            <div class="resume-item">
+              <h4>Bachelor of Software Engineering</h4>
+              <h5>2009 - 2011</h5>
+              <p><em>Vocational School, Kermanshah, Iran</em></p>
+            </div>
+          </div>
+          <div class="col-12" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Full Stack Web Developer</h4>
+              <h5>2022</h5>
+              <p><em>TicaWatch, Tehran, Iran</em></p>
+              <ul>
+                <li>Prepare an online shop core for watch and it's equipment.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Consulting on online shop</h4>
+              <h5>2022</h5>
+              <p><em>Adora Style, Tehran, Iran</em></p>
+              <ul>
+                <li>Research and create a report of the section they need to improve.</li>
+                <li>Upgrade and modify their website (Prestashop Based) so users have a better experience.</li>
+                <li>Implement new ways for them in the admin section to update their stocks.</li>
+                <li>Consulting and teaching the team on Prestashop and online marketing sections.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Full Stack Web Developer</h4>
+              <h5>2022</h5>
+              <p><em>Damsaz Group, Tehran, Iran</em></p>
+              <ul>
+                <li>Industrial Kitchen Section: Prepare an online shop core for industrial kitchen equipment.</li>
+                <li>Industrial Kitchen Section: Salesmen service to manage their workers and all the sales progress step
+                  by step to provide
+                  consulting to their customers.</li>
+                <li>Industrial Kitchen Section: Upgrade their CMS to Laravel and Nuxt Js version.</li>
+                <li>Insurance Section: Upgrade their CMS to Laravel and Nuxt Js version.</li>
+                <li>Food Delivery Section: Upgrade their CMS to Laravel and Nuxt Js version.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Full Stack Web Developer</h4>
+              <h5>2021</h5>
+              <p><em>Chatreto, Iran</em></p>
+              <ul>
+                <li>Built PWA app for insurance order service of 8 different types.</li>
+                <li>Implement forms with an Auto-generate structure based on the API to increase reusability.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Full Stack Web Developer</h4>
+              <h5>2021</h5>
+              <p><em>Iranian Neuropsychological Association, Tehran, Iran</em></p>
+              <ul>
+                <li>Simple CMS based on Laravel and Nuxt to share their events and workshops.</li>
+                <li>Membership section to attract more members.</li>
+                <li>Participate sections so users could request to participate in their workshops and etc.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Full Stack Web Developer</h4>
+              <h5>2021</h5>
+              <p><em>eshelteam</em></p>
+              <ul>
+                <li>High-speed industrial kitchen category that helps the company to get half of their links on the
+                  first page of SERP.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Full Stack Web Developer</h4>
+              <h5>2019 - 2021</h5>
+              <p><em>Sport Analytics Data, Iran</em></p>
+              <ul>
+                <li>Design a compiler on more than 50 different APIs (JSON, XML, etc.) so all data would have an equal
+                  JSON format output.</li>
+                <li>Built an algorithm with 5 different stages of comparing and updating the database to compare all
+                  outputs with the database.</li>
+                <li>Design and implement a database with SQL Server and in-memory table to increase the speed of process
+                  for comparing and updating more than 20 million rows in under 1 minute.</li>
+                <li>Create an administrator panel (PWA) to handle all APIs and analyze formulas.</li>
+                <li>Prepare the whole website as PWA to operate and publicly show all analyzed data to users with
+                  different needs. Handel more than 5000 events every week.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Full Stack Web Developer</h4>
+              <h5>2018 - 2019</h5>
+              <p><em>Damsaz Group, Tehran, Iran</em></p>
+              <ul>
+                <li>Industrial Kitchen Section: Build specific CMS for an online category list of the industrial kitchen
+                  equipment company. it took around 45 days to design a database and create individual CMS.</li>
+                <li>Food Delivery Section: Online ordering service so users can order food, it has its own accounting
+                  system with admin and Delivery panel..</li>
+                <li>Insurance Section: Prepared individual CMS for an insurance agency that gains visits and increases
+                  its revenue.</li>
+                <li>Insurance Section: Design online insurance orders process based on Company API. that leads to
+                  monthly revenue.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Full Stack Web Developer</h4>
+              <h5>2016 - 2017</h5>
+              <p><em>Freelancer</em></p>
+              <ul>
+                <li>built websites with HTML, CSS, Bootstrap for frontends project</li>
+                <li>Coding backend with PHP and designing databases with MySql</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Product Owner / Full Stack Web Developer</h4>
+              <h5>2014 - 2015</h5>
+              <p><em>B2C market palce for retailers, Tehran, Iran</em></p>
+              <ul>
+                <li>Design and develop products based on the B2C concept so every person could sell their merchandise.
+                </li>
+                <li>Managed up to 7 coworkers, back-end team, front-end team, and graphic designer.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Product Owner / Full Stack Web Developer</h4>
+              <h5>2012 - 2014</h5>
+              <p><em>B2B market palce for small to large companies, Tehran, Iran</em></p>
+              <ul>
+                <li>Design and develop products based on the B2B concept so every company has a profile (small website)
+                  to introduce themselves</li>
+                <li>Managed up to 5 coworkers, back-end team, front-end team, and graphic designer.</li>
+                <li>Create Single page application based website with jQuery and bootstrap.</li>
+                <li>Manage serverside process with PHP and PHALCON framework.</li>
+                <li>Use MySql to power up the database.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Web Developer</h4>
+              <h5>2011 - 2012</h5>
+              <p><em>Freelancer, Tehran, Iran</em></p>
+              <ul>
+                <li>built websites with HTML, CSS, Bootstrap for frontends project</li>
+                <li>Coding backend with PHP and designing databases with MySql</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Educational Institutions Managing app</h4>
+              <h5>2010 - 2011</h5>
+              <p><em>Educational Institutions Association, Kermanshah, Iran</em></p>
+              <ul>
+                <li>Create an Application based on Java ME to manage teachers, classes, student</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10">
+            <div class="row justify-content-center">
+              <div class="col-auto p-4">
+                <img src="assets/img/company-logo/damsaz.png" alt="damsaz industrial kitchen co."
+                  style="width: 120px; height: 60px">
+              </div>
+              <div class="col-auto p-4">
+                <img src="assets/img/company-logo/eshelteam.png" alt="eshelteam industrial kitchen co."
+                  style="width: 120px; height: 60px">
+              </div>
+              <div class="col-auto p-4">
+                <img src="assets/img/company-logo/saman4149.png" alt="saman4149" style="width: 120px; height: 60px">
+              </div>
+              <div class="col-auto p-4">
+                <img src="assets/img/company-logo/ticawatch.png" alt="ticawatch" style="width: 120px; height: 60px">
+              </div>
+              <div class="col-auto p-4">
+                <img src="assets/img/company-logo/adora.png" alt="adora" style="width: 120px; height: 60px">
+              </div>
+              <div class="col-auto p-4">
+                <img src="assets/img/company-logo/catus.png" alt="catus" style="width: 120px; height: 60px">
+              </div>
+              <div class="col-auto p-4">
+                <img src="assets/img/company-logo/sazehposhesh.png" alt="sazehposhesh"
+                  style="width: 120px; height: 60px">
+              </div>
+              <div class="col-auto p-4">
+                <img src="assets/img/company-logo/restno.png" alt="restno" style="width: 120px; height: 60px">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio pb-5">
+      <div class="container py-5 mb-5">
+        <div class="row justify-content-center">
+          <div class="col-12 mb-5">
+            <div class="mb-5">
+              <p class="fs-1">Latest Works</p>
+              <p>Prefect solutions for digital expereince</p>
+            </div>
+          </div>
+          <div class="col col-md-6 mb-5">
+            <div class="card py-5 portfolio-card">
+              <div class="row m-0">
+                <div class="col ps-5">
+                  <h3>Damsaz</h3>
+                </div>
+                <div class="col-auto pe-5">
+                  <span class="portfolio-badge">Laravel</span>
+                  <span class="portfolio-badge">Vue</span>
+                  <span class="portfolio-badge">Vuetify</span>
+                </div>
+              </div>
+              <div class="pt-5">
+                <img src="assets/img/portfolio/damsaz.png" alt="damsaz" style="width: 100%;">
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 mb-5">
+            <div class="card py-5 portfolio-card">
+              <div class="row m-0">
+                <div class="col ps-5">
+                  <h3>Ticawatch</h3>
+                </div>
+                <div class="col-auto pe-5">
+                  <span class="portfolio-badge">Laravel</span>
+                  <span class="portfolio-badge">Vue</span>
+                  <span class="portfolio-badge">Vuetify</span>
+                </div>
+              </div>
+              <div class="pt-5">
+                <img src="assets/img/portfolio/ticawatch.png" alt="ticawatch" style="width: 100%;">
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6">
+            <div class="card py-5 portfolio-card">
+              <div class="row m-0">
+                <div class="col ps-5">
+                  <h3>Saman4149</h3>
+                </div>
+                <div class="col-auto pe-5">
+                  <span class="portfolio-badge">Phalcon</span>
+                  <span class="portfolio-badge">Bootstrap</span>
+                  <span class="portfolio-badge">JavaScript</span>
+                </div>
+              </div>
+              <div class="pt-5">
+                <img src="assets/img/portfolio/saman4149.png" alt="Saman4149" style="width: 100%;">
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6">
+            <div class="card py-5 portfolio-card">
+              <div class="row">
+                <div class="col ps-5">
+                  <h3>Chatreto</h3>
+                </div>
+                <div class="col-auto pe-5">
+                  <span class="portfolio-badge">Laravel</span>
+                  <span class="portfolio-badge">Vue</span>
+                  <span class="portfolio-badge">JavaScript</span>
+                </div>
+              </div>
+              <div class="pt-5">
+                <img src="assets/img/portfolio/chatreto.png" alt="chatreto" style="width: 100%;">
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-10 py-5">
+            <div class="py-5">
+              <a href="/portfolio" class="links">
+                <p class="fs-3">ALL PROJECTS</p>
+              </a>
+              <p>* Some projects not allow publish by NDA,</p>
+              <p>if you want to see more, <a href="#contact" class="links">contact</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services -->
+    <section id="services" class="services"></section>
+    <!-- Testimonials Section -->
+    <!-- <section id="testimonials" class="testimonials pb-5">
+      <div class="container pb-5">
+        <div class="section-title pb-5">
+          <h2>Testimonials</h2>
+        </div>
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up">
+                <p>
+                  <i class="bi bi-quote"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bi bi-quote"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+                <p>
+                  <i class="bi bi-quote"></i>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
+                  quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  <i class="bi bi-quote"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+                <p>
+                  <i class="bi bi-quote"></i>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
+                  tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  <i class="bi bi-quote"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+                <p>
+                  <i class="bi bi-quote"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
+                  minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  <i class="bi bi-quote"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+                <p>
+                  <i class="bi bi-quote"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
+                  labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="bi bi-quote"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact py-5">
+      <div class="container pt-5">
+        <div class="row py-5 my-5">
+          <div class="col-12 col-md">
+            <p class="fs-1">Let's make something amazing togheter.</p>
+            <p class="fs-1">Start by <a href="mailto:ehsan.jamshidiii@gmail.com" class="links">saying hi</a></p>
+          </div>
+          <div class="col-12 col-md-auto">
+            <p class="text-secondary">Information</p>
+            <p class="fs-5">Karaj, Alborz, Iran</p>
+            <p class="fs-5">ehsan.jamshidiii@gamil.com</p>
+            <div class="row">
+              <div class="col-12"><a href="#introduce" class="nav-link scrollto"><i
+                    class="bi bi-chevron-left"></i><span>About</span><i class="bi bi-chevron-right"></i></a></div>
+              <div class="col-12"><a href="#resume" class="nav-link scrollto"><i
+                    class="bi bi-chevron-left"></i><span>Resume</span><i class="bi bi-chevron-right"></i></a></div>
+              <div class="col-12"><a href="#portfolio" class="nav-link scrollto"><i
+                    class="bi bi-chevron-left"></i><span>Portfolio</span><i class="bi bi-chevron-right"></i></a></div>
+              <!-- <div class="col-12"><a href="#services" class="nav-link scrollto"><i
+                    class="bi bi-chevron-left"></i><span>Services</span><i class="bi bi-chevron-right"></i></a></div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- footer -->
+  <footer class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <a href="index.html" class="text-white">
+            <span style="font-weight: 500;" class="me-1 fs-5">Ehsan</span><span
+              style="font-weight: 400; color: #D9D9D9;" class="fs-5">Jamshidi</span>
+          </a>
+        </div>
+        <div class="col-auto">
+          <a href="https://github.com/EhsanJamshidi" target="_blank" class="github"><i class="bi bi-github"></i></a>
+          <a href="https://www.linkedin.com/in/ehsan-jamshidi-095886183/" target="_blank" class="linkedin"><i
+              class="bi bi-linkedin"></i></a>
+          <a href="https://twitter.com/Ehsan_Jamshidii" target="_blank" class="twitter"><i
+              class="bi bi-twitter"></i></a>
+          <!-- <a href="https://join.skype.com/invite/miaImeE9VFju" target="_blank" class="skype"><i
+              class="bi bi-skype"></i></a> -->
+          <!-- <a href="#" class="instagram"><i class="bi bi-instagram"></i></a> -->
+        </div>
+      </div>
+    </div>
+  </footer>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
